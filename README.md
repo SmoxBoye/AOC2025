@@ -9,3 +9,5 @@ I've made it a soft requirement this time that each solution have to run under 1
 "every problem has a solution that completes in at most 15 seconds on ten-year-old hardware".
 
 I'll consider parsing the data part of the time requirement if i feel like it's relevant.
+
+Also I try to not import any non standard libraries.
