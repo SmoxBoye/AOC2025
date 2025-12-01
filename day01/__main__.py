@@ -62,14 +62,13 @@ def part2_part2(data: list[Keycode]):
     for key in data:
 
         point += key.rot * key.distance
-        
+
         if point >= 100:
             zero_count += point // 100
         if point <= 0:
             zero_count += abs(point) // 100 + 1
             if prev_zero:
                 zero_count -= 1
-
 
         point = point % 100
         prev_zero = point == 0
